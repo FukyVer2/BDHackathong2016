@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: a7444607ec2794bea893ef8afc729fab
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: _blue copy 2
+    21300002: _blue copy 3
+    21300004: _blue copy 4
+    21300006: _blue copy 5
+    21300008: _blue copy 6
+    21300010: _blue copy 7
+    21300012: _blue copy
+    21300014: _blue
+    21300016: _blue_green copy 2
+    21300018: _blue_green copy 3
+    21300020: _blue_green copy 4
+    21300022: _blue_green copy 5
+    21300024: _blue_green copy 6
+    21300026: _blue_green copy 7
+    21300028: _blue_green copy
+    21300030: _blue_green
+    21300032: _green copy 2
+    21300034: _green copy 3
+    21300036: _green copy 4
+    21300038: _green copy 5
+    21300040: _green copy 6
+    21300042: _green copy 7
+    21300044: _green copy
+    21300046: _green
+    21300048: _pink copy 2
+    21300050: _pink copy 3
+    21300052: _pink copy 4
+    21300054: _pink copy 5
+    21300056: _pink copy 6
+    21300058: _pink copy 7
+    21300060: _pink copy
+    21300062: _pink
+    21300064: _purpple copy 2
+    21300066: _purpple copy 3
+    21300068: _purpple copy 4
+    21300070: _purpple copy 5
+    21300072: _purpple copy 6
+    21300074: _purpple copy 7
+    21300076: _purpple copy
+    21300078: _purpple
+    21300080: _red copy 2
+    21300082: _red copy 3
+    21300084: _red copy 4
+    21300086: _red copy 5
+    21300088: _red copy 6
+    21300090: _red copy 7
+    21300092: _red copy
+    21300094: _red
+    21300096: _white copy 2
+    21300098: _white copy 3
+    21300100: _white copy 4
+    21300102: _white copy 5
+    21300104: _white copy 6
+    21300106: _white copy 7
+    21300108: _white copy
+    21300110: _white
+    21300112: _yellow copy 2
+    21300114: _yellow copy 3
+    21300116: _yellow copy 4
+    21300118: _yellow copy 5
+    21300120: _yellow copy 6
+    21300122: _yellow copy 7
+    21300124: _yellow copy
+    21300126: _yellow
+    21300128: ambulance
+    21300130: balloon
+    21300132: bicycle
+    21300134: bus
+    21300136: car
+    21300138: helicopter
+    21300140: jet
+    21300142: motorbike
+    21300144: sailboat
+    21300146: scooter
+    21300148: snowmobile
+    21300150: submarine
+    21300152: taxi
+    21300154: train
+    21300156: truck
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ambulance
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: balloon
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bicycle
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bus
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: car
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: helicopter
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 240
+        height: 321
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jet
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: motorbike
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sailboat
+      rect:
+        serializedVersion: 2
+        x: 2905
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scooter
+      rect:
+        serializedVersion: 2
+        x: 3147
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: snowmobile
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: submarine
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: train
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: truck
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 2
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

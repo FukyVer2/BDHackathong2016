@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: c5cda2df0ad524ce28eb34b128caaaa8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: _blue copy 2
+    21300002: _blue copy 3
+    21300004: _blue copy 4
+    21300006: _blue copy 5
+    21300008: _blue copy 6
+    21300010: _blue copy 7
+    21300012: _blue copy
+    21300014: _blue
+    21300016: _blue_green copy 2
+    21300018: _blue_green copy 3
+    21300020: _blue_green copy 4
+    21300022: _blue_green copy 5
+    21300024: _blue_green copy 6
+    21300026: _blue_green copy 7
+    21300028: _blue_green copy
+    21300030: _blue_green
+    21300032: _green copy 2
+    21300034: _green copy 3
+    21300036: _green copy 4
+    21300038: _green copy 5
+    21300040: _green copy 6
+    21300042: _green copy 7
+    21300044: _green copy
+    21300046: _green
+    21300048: _pink copy 2
+    21300050: _pink copy 3
+    21300052: _pink copy 4
+    21300054: _pink copy 5
+    21300056: _pink copy 6
+    21300058: _pink copy 7
+    21300060: _pink copy
+    21300062: _pink
+    21300064: _purpple copy 2
+    21300066: _purpple copy 3
+    21300068: _purpple copy 4
+    21300070: _purpple copy 5
+    21300072: _purpple copy 6
+    21300074: _purpple copy 7
+    21300076: _purpple copy
+    21300078: _purpple
+    21300080: _red copy 2
+    21300082: _red copy 3
+    21300084: _red copy 4
+    21300086: _red copy 5
+    21300088: _red copy 6
+    21300090: _red copy 7
+    21300092: _red copy
+    21300094: _red
+    21300096: _white copy 2
+    21300098: _white copy 3
+    21300100: _white copy 4
+    21300102: _white copy 5
+    21300104: _white copy 6
+    21300106: _white copy 7
+    21300108: _white copy
+    21300110: _white
+    21300112: _yellow copy 2
+    21300114: _yellow copy 3
+    21300116: _yellow copy 4
+    21300118: _yellow copy 5
+    21300120: _yellow copy 6
+    21300122: _yellow copy 7
+    21300124: _yellow copy
+    21300126: _yellow
+    21300128: bag
+    21300130: clothes
+    21300132: dress
+    21300134: hat
+    21300136: jacket
+    21300138: jeans
+    21300140: shirt
+    21300142: shoe
+    21300144: skirt
+    21300146: sock
+    21300148: trousers
+    21300150: watch
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bag
+      rect:
+        serializedVersion: 2
+        x: 2295
+        y: 37
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: clothes
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 37
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dress
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 57
+        width: 225
+        height: 300
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hat
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 37
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jacket
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 356
+        height: 356
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jeans
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 37
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shirt
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 37
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoe
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 37
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skirt
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 37
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sock
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 37
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trousers
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 37
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: watch
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 37
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

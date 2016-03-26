@@ -1,0 +1,36 @@
+CategoryID	CategoryName	Media
+1	Family	family
+2	Body	body
+3	Pet	pet
+4	Bathroom	bathroom
+5	Livingroom	livingroom
+6	Furniture	furniture
+7	School	school
+8	Feeling	feeling
+9	Verb	verb
+10	Colors	colors
+11	Pencil case	pencil_case
+12	Toy	toy
+13	Kitchen	kitchen
+14	Flowers	flowers
+15	Fruits	fruits
+16	Drinks	drinks
+17	Foods	foods
+18	Vegetables	vegetables
+19	Weather	weather
+20	Sports	sports
+21	Transport	transport
+22	Autumn	autumn
+23	Summer	summer
+24	Winter	winter
+25	Valentine	valentine
+26	Clothes	clothes
+27	Halloween Animals	halloween_animals
+28	Christmas	christmas
+29	Halloween	halloween
+30	Easter	easter
+31	Town	town
+32	Occupation	occupation
+33	Domestic Animals	domestic_animals
+34	Insect	insect
+35	Wild Animals	wild_animals

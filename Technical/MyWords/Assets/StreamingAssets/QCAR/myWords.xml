@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="R_Z" size="640.000000 480.000000" />
+    <ImageTarget name="R_Y" size="640.000000 480.000000" />
+    <ImageTarget name="R_X" size="640.000000 480.000000" />
+    <ImageTarget name="R_W" size="640.000000 480.000000" />
+    <ImageTarget name="R_V" size="640.000000 480.000000" />
+    <ImageTarget name="R_U" size="640.000000 480.000000" />
+    <ImageTarget name="R_T" size="640.000000 480.000000" />
+    <ImageTarget name="R_S" size="640.000000 480.000000" />
+    <ImageTarget name="R_R" size="640.000000 480.000000" />
+    <ImageTarget name="R_Q" size="640.000000 480.000000" />
+    <ImageTarget name="R_P" size="640.000000 480.000000" />
+    <ImageTarget name="R_O" size="640.000000 480.000000" />
+    <ImageTarget name="R_N" size="640.000000 480.000000" />
+    <ImageTarget name="R_M" size="640.000000 480.000000" />
+    <ImageTarget name="R_L" size="640.000000 480.000000" />
+    <ImageTarget name="R_J" size="640.000000 480.000000" />
+    <ImageTarget name="R_K" size="640.000000 480.000000" />
+    <ImageTarget name="R_I" size="640.000000 480.000000" />
+    <ImageTarget name="R_H" size="640.000000 480.000000" />
+    <ImageTarget name="R_G" size="640.000000 480.000000" />
+    <ImageTarget name="R_F" size="640.000000 480.000000" />
+    <ImageTarget name="R_E" size="640.000000 480.000000" />
+    <ImageTarget name="R_D" size="640.000000 480.000000" />
+    <ImageTarget name="R_C" size="640.000000 480.000000" />
+    <ImageTarget name="R_B" size="640.000000 480.000000" />
+    <ImageTarget name="R_A" size="640.000000 480.000000" />
+  </Tracking>
+</QCARConfig>

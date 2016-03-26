@@ -1,0 +1,350 @@
+WordID	CategoryID	Word	MediaID	SOTU	TB
+1	1	baby	baby	4	5.9
+2	1	pets	pets	4	
+3	1	mummy	mummy	5	
+4	1	family	family	6	
+5	1	father	father	6	
+6	1	sister	sister	6	
+7	1	brother	brother	7	
+8	1	grandma	grandma	7	
+9	1	grandpa	grandpa	7	
+10	1	parent	parent	7	
+11	2	ear	ear	3	3.9
+12	2	eye	eye	3	
+13	2	body	body	4	
+14	2	hair	hair	4	
+15	2	hand	hand	4	
+16	2	head	head	4	
+17	2	legs	legs	4	
+18	2	neck	neck	4	
+19	2	nose	nose	4	
+20	2	mouth	mouth	5	
+21	3	cat	cat	3	4.9
+22	3	dog	dog	3	
+23	3	fish	fish	4	
+24	3	pony	pony	4	
+25	3	mouse	mouse	5	
+26	3	canary	canary	6	
+27	3	lizard	lizard	6	
+28	3	parrot	parrot	6	
+29	3	rabbit	rabbit	6	
+30	3	turtle	turtle	6	
+31	4	bath	bath	4	6.1
+32	4	comb	comb	4	
+33	4	soap	soap	4	
+34	4	brush	brush	5	
+35	4	towel	towel	5	
+36	4	shower	shower	6	
+37	4	sponge	sponge	6	
+38	4	shampoo	shampoo	7	
+39	4	toothbrush	toothbrush	10	
+40	4	toothpaste	toothpaste	10	
+41	5	sofa	sofa	4	6.4
+42	5	clock	clock	5	
+43	5	phone	phone	5	
+44	5	plant	plant	5	
+45	5	table	table	5	
+46	5	carpet	carpet	6	
+47	5	picture	picture	7	
+48	5	armchair	armchair	8	
+49	5	fireplace	fireplace	9	
+50	5	television	television	10	
+51	6	bed	bed	3	5.8
+52	6	desk	desk	4	
+53	6	sofa	sofa	4	
+54	6	chair	chair	5	
+55	6	stool	stool	5	
+56	6	table	table	5	
+57	6	armchair	armchair	8	
+58	6	bookcase	bookcase	8	
+59	6	cupboard	cupboard	8	
+60	6	wardrobe	wardrobe	8	
+61	7	map	map	3	6.1
+62	7	book	book	4	
+63	7	board	board	5	
+64	7	globe	globe	5	
+65	7	pupil	pupil	5	
+66	7	pencil case	pencil_case	11	
+67	7	teacher	teacher	7	
+68	7	school bag	school_bag	10	
+69	7	notebook	notebook	8	
+70	7	classroom	classroom	9	
+71	8	hot	hot	3	5.1
+72	8	sad	sad	3	
+73	8	cold	cold	4	
+74	8	angry	angry	5	
+75	8	bored	bored	5	
+76	8	happy	happy	5	
+77	8	tired	tired	5	
+78	8	scared	scared	6	
+79	8	sleepy	sleepy	6	
+80	8	surprised	surprised	9	
+81	9	cry	cry	3	4.1
+82	9	eat	eat	3	
+83	9	run	run	3	
+84	9	read	read	4	
+85	9	sing	sing	4	
+86	9	talk	talk	4	
+87	9	drink	drink	5	
+88	9	sleep	sleep	5	
+89	9	smile	smile	5	
+90	9	think	think	5	4.7
+91	10	red	red	3	
+92	10	blue	blue	4	
+93	10	grey	grey	4	
+94	10	pink	pink	4	
+95	10	black	black	5	
+96	10	brown	brown	5	
+97	10	green	green	5	
+98	10	orange	orange	6	
+99	10	purple	purple	6	
+100	10	yellow	yellow	6	6
+101	11	pen	pen	3	
+102	11	glue	glue	4	
+103	11	ruler	ruler	5	
+104	11	eraser	eraser	6	
+105	11	paints	paints	6	
+106	11	pencil	pencil	6	
+107	11	crayons	crayons	7	
+108	11	scissors	scissors	8	
+109	11	sharpener	sharpener	9	
+110	11	paintbrush	paintbrush	10	5.5
+111	12	car	car	3	
+112	12	ball	ball	4	
+113	12	boat	boat	4	
+114	12	doll	doll	4	
+115	12	kite	kite	4	
+116	12	plane	plane	5	
+117	12	train	train	5	
+118	12	blocks	blocks	6	
+119	12	board game	board_game	10	
+120	12	teddy bear	teddy_bear	10	5.3
+121	13	cup	cup	3	
+122	13	pan	pan	3	
+123	13	fork	fork	4	
+124	13	knife	knife	5	
+125	13	plate	plate	5	
+126	13	spoon	spoon	5	
+127	13	cooker	cooker	6	
+128	13	fridge	fridge	6	
+129	13	kettle	kettle	6	
+130	13	teapot	teapot	6	5.9
+131	14	iris	iris	4	
+132	14	daisy	daisy	5	
+133	14	lilac	lilac	5	
+134	14	tulip	tulip	5	
+135	14	crocus	crocus	6	
+136	14	violet	violet	6	
+137	14	anemone	anemone	7	
+138	14	freesia	freesia	7	
+139	14	daffodil	daffodil	8	
+140	14	snowdrops	snowdrops	9	6.4
+141	15	pear	pear	4	
+142	15	plum	plum	4	
+143	15	apple	apple	5	
+144	15	lemon	lemon	5	
+145	15	banana	banana	6	
+146	15	cherry	cherry	6	
+147	15	orange	orange	6	
+148	15	pineapple	pineapple	9	
+149	15	strawberry	strawberry	10	
+150	15	watermelon	watermelon	10	5
+151	16	tea	tea	3	
+152	16	beer	beer	4	
+153	16	milk	milk	4	
+154	16	soda	soda	4	
+155	16	wine	wine	4	
+156	16	cocoa	cocoa	5	
+157	16	juice	juice	5	
+158	16	water	water	5	
+159	16	coffee	coffee	6	
+160	16	cocktail	cocktail	8	5.8
+161	17	egg	egg	3	
+162	17	buns	buns	4	
+163	17	cake	cake	4	
+164	17	bread	bread	5	
+165	17	chips	chips	5	
+166	17	butter	butter	6	
+167	17	cheese	cheese	6	
+168	17	sausages	sausages	8	
+169	17	hamburger	hamburger	9	
+170	17	ice cream	ice cream	9	6.1
+171	18	leek	leek	4	
+172	18	peas	peas	4	
+173	18	onion	onion	5	
+174	18	carrot	carrot	6	
+175	18	celery	celery	6	
+176	18	tomato	tomato	6	
+177	18	cabbage	cabbage	7	
+178	18	lettuce	lettuce	7	
+179	18	parsley	parsley	7	
+180	18	cucumber	cucumber	8	4.3
+181	19	hot	hot	3	
+182	19	sun	sun	3	
+183	19	cold	cold	4	
+184	19	hail	hail	4	
+185	19	rain	rain	4	
+186	19	snow	snow	4	
+187	19	warm	warm	4	
+188	19	wind	wind	4	
+189	19	cloud	cloud	5	
+190	19	storm	storm	5	6.8
+191	20	boxing	boxing	6	
+192	20	hockey	hockey	6	
+193	20	skiing	skiing	6	
+194	20	tennis	tennis	6	
+195	20	cycling	cycling	7	
+196	20	skating	skating	7	
+197	20	football	football	8	
+198	20	swimming	swimming	8	
+199	20	badminton	badminton	9	
+200	20	basketball	basketball	10	5.2
+201	21	bus	bus	3	
+202	21	car	car	3	
+203	21	van	van	3	
+204	21	bike	bike	4	
+205	21	ship	ship	4	
+206	21	lorry	lorry	5	
+207	21	plane	plane	5	
+208	21	train	train	5	
+209	21	helicopter	helicopter	10	
+210	21	motorcycle	motorcycle	10	6.6
+211	22	pear	pear	4	
+212	22	rain	rain	4	
+213	22	apple	apple	5	
+214	22	acorns	acorns	6	
+215	22	leaves	leaves	6	
+216	22	daisy	daisy	7	
+217	22	hedgehog	hedgehog	8	
+218	22	squirrel	squirrel	8	
+219	22	umbrella	umbrella	8	
+220	22	chestnuts	chestnuts	9	6.7
+221	23	sea	sea	3	
+222	23	sun	sun	3	
+223	23	lake	lake	4	
+224	23	beach	beach	5	
+225	23	swimmer	swimmer	7	
+226	23	mountain	mountain	8	
+227	23	sunbathe	sunbathe	8	
+228	23	beach suit	beach_suit	10	
+229	23	sandcastle	sandcastle	10	
+230	23	sunglasses	sunglasses	10	6.4
+231	24	cold	cold	4	
+232	24	snow	snow	4	
+233	24	skate	skate	5	
+234	24	skiing	skiing	6	
+235	24	sledge	sledge	6	
+236	24	icicles	icicles	7	
+237	24	mittens	mittens	7	
+238	24	snowman	snowman	7	
+239	24	snowball	snowball	8	
+240	24	snowflake	snowflake	9	5.3
+241	25	gift	gift	4	
+242	25	kiss	kiss	4	
+243	25	ring	ring	4	
+244	25	birds	birds	5	
+245	25	cupid	cupid	5	
+246	25	heart	heart	5	
+247	25	puppy	puppy	5	
+248	25	flower	flower	6	
+249	25	sweets	sweets	6	
+250	25	chocolate	chocolate	9	5.4
+251	26	cap	cap	3	
+252	26	coat	coat	4	
+253	26	dress	dress	5	
+254	26	shirt	shirt	5	
+255	26	shoes	shoes	5	
+256	26	skirt	skirt	5	
+257	26	socks	socks	5	
+258	26	blouse	blouse	6	
+259	26	sweater	sweater	7	
+260	26	trousers	trousers	8	4.6
+261	27	bat	bat	3	
+262	27	cat	cat	3	
+263	27	owl	owl	3	
+264	27	frog	frog	4	
+265	27	wolf	wolf	4	
+266	27	mouse	mouse	5	
+267	27	snail	snail	5	
+268	27	snake	snake	5	
+269	27	lizard	lizard	6	
+270	27	spider	spider	6	5
+271	28	elf	elf	3	
+272	28	ball	ball	4	
+273	28	bell	bell	4	
+274	28	pine	pine	4	
+275	28	star	star	4	
+276	28	angel	angel	5	
+277	28	chain	chain	5	
+278	28	present	present	7	
+279	28	stocking	stocking	8	
+280	28	Santa Claus	santa_claus	11	6.7
+281	29	mask	mask	4	
+282	29	ghost	ghost	5	
+283	29	mummy	mummy	5	
+284	29	witch	witch	5	
+285	29	pumpkin	pumpkin	6	
+286	29	monster	monster	7	
+287	29	vampire	vampire	7	
+288	29	skeleton	skeleton	8	
+289	29	scarecrow	scarecrow	9	
+290	29	ghost house	ghost_house	11	5.8
+291	30	hen	hen	3	
+292	30	cake	cake	4	
+293	30	lamb	lamb	4	
+294	30	bunny	bunny	5	
+295	30	chick	chick	5	
+296	30	basket	basket	6	
+297	30	catkin	catkin	6	
+298	30	spring	spring	6	
+299	30	duckling	duckling	8	
+300	31	bank	bank	4	8
+301	31	church	church	6	
+302	31	cinema	cinema	6	
+303	31	school	school	6	
+304	31	library	library	7	
+305	31	hospital	hospital	8	
+306	31	restaurant	restaurant	10	
+307	31	gas station	gas_station	11	
+308	31	post office	post_office	11	
+309	31	supermarket	supermarket	11	
+310	32	nurse	nurse	5	6.5
+311	32	cooker	cooker	6	
+312	32	doctor	doctor	6	
+313	32	driver	driver	6	
+314	32	farmer	farmer	6	
+315	32	seller	seller	6	
+316	32	fireman	fireman	7	
+317	32	postman	postman	7	
+318	32	teacher	teacher	7	
+319	32	policeman	policeman	9	
+320	33	cow	cow	3	4.4
+321	33	hen	hen	3	
+322	33	pig	pig	3	
+323	33	duck	duck	4	
+324	33	goat	goat	4	
+325	33	goose	goose	5	
+326	33	horse	horse	5	
+327	33	sheep	sheep	5	
+328	33	donkey	donkey	6	
+329	33	rabbit	rabbit	6	
+330	34	ant	ant	3	6.9
+331	34	bee	bee	3	
+332	34	fly	fly	3	
+333	34	beetle	beetle	6	
+334	34	ladybird	ladybird	8	
+335	34	mosquito	mosquito	8	
+336	34	butterfly	butterfly	9	
+337	34	centipede	centipede	9	
+338	34	dragonfly	dragonfly	9	
+339	34	grasshopper	grasshopper	11	
+340	35	lion	lion	4	6.1
+341	35	hippo	hippo	5	
+342	35	rhino	rhino	5	
+343	35	snake	snake	5	
+344	35	tiger	tiger	5	
+345	35	zebra	zebra	5	
+346	35	giraffe	giraffe	7	
+347	35	elephant	elephant	8	
+348	35	kangaroo	kangaroo	8	
+349	35	crocodile	crocodile	9	
