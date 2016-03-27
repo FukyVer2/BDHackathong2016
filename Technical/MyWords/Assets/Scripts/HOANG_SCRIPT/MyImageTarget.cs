@@ -12,7 +12,7 @@ public class MyImageTarget : MonoBehaviour {
 
 //        if(BaseGameController.Instance.baseWordController.completeChangeWord && !BaseGameController.Instance.gameLose)
 //		    BaseGameController.Instance.baseWordController.uiWordEffect.GiveCharacter (character [0], team);
-
+        Debug.Log("ok tracked");
 		GamePlayController.Instance.TrackableCharacter (character [0], team);
 		SoundManager.Instance.PlaySoundWithName (character);
 	}

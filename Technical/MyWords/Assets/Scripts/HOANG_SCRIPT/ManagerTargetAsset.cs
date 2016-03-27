@@ -13,16 +13,19 @@ public class ManagerTargetAsset : MonoBehaviour {
 	[ContextMenu("Get Trackables")]
 	void GetAllTrackble()
 	{
-		ObjectTracker ot = TrackerManager.Instance.GetTracker<ObjectTracker> ();
-		IEnumerable<DataSet> dataSet = ot.GetDataSets ();
-		foreach (DataSet data in dataSet) {
-			//Debug.Log(data.);
-			IEnumerable<Trackable> trackables = data.GetTrackables();
-			foreach(Trackable tr in trackables)
-			{
-				Debug.Log(tr.Name);
-			}
-		}
+        // tobi
+
+        ObjectTracker ot = TrackerManager.Instance.GetTracker<ObjectTracker>();
+        IEnumerable<DataSet> dataSet = ot.GetDataSets();
+        foreach (DataSet data in dataSet)
+        {
+            //Debug.Log(data.);
+            IEnumerable<Trackable> trackables = data.GetTrackables();
+            foreach (Trackable tr in trackables)
+            {
+                Debug.Log(tr.Name);
+            }
+        }
 	}
 
 	[ContextMenu("Disall Imgs")]
@@ -38,11 +41,17 @@ public class ManagerTargetAsset : MonoBehaviour {
 	}
 	void ChangeComponentImageTargetInChils(bool isActive)
 	{
-		ImageTargetAbstractBehaviour[] compImgTargets = transform.GetComponentsInChildren<ImageTargetBehaviour> ();
-		foreach (ImageTargetAbstractBehaviour compImgTarget in compImgTargets) {
-			//Debug.Log("Change CompImgTarget");
-			compImgTarget.enabled = isActive;
-		}
+        // tobi dong
+
+        ImageTargetAbstractBehaviour[] compImgTargets = transform.GetComponentsInChildren<ImageTargetBehaviour>();
+        foreach (ImageTargetAbstractBehaviour compImgTarget in compImgTargets)
+        {
+            //Debug.Log("Change CompImgTarget");
+            compImgTarget.enabled = isActive;
+        }
+
+
+
 //		int childCount = transform.childCount;
 //		for (int i = 0; i < childCount; i++) {
 //			transform.GetChild(i).GetComponent<ImageTargetBehaviour>().enabled = isActive;
