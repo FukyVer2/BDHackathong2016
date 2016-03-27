@@ -192,7 +192,8 @@ public class GamePlayController : MonoSingleton<GamePlayController> {
 		}
 		else
 		{
-			PlayGameWithNewWord();
+			//PlayGameWithNewWord();
+            Application.LoadLevel("Cao_Scenes");
 		}
 	}
 
@@ -219,14 +220,15 @@ public class GamePlayController : MonoSingleton<GamePlayController> {
 	public void ActiveManagerTarget()
 	{
 		teamBlue.EnableImgTargetInChilds ();
-		//teamBlue2.EnableImgTargetInChilds ();
-		if (this.baseModeType == BaseModeType.SINGLE_MODE) {
-			teamRed.DisableImgTargetInChilds ();
-			//teamRed2.EnableImgTargetInChilds ();
-		} else {
-			teamRed.EnableImgTargetInChilds();
-			//teamRed2.DisableImgTargetInChilds();
-		}
+        teamRed.EnableImgTargetInChilds();
+        //teamBlue2.EnableImgTargetInChilds ();
+  //      if (this.baseModeType == BaseModeType.SINGLE_MODE) {
+		//	teamRed.DisableImgTargetInChilds ();
+		//	//teamRed2.EnableImgTargetInChilds ();
+		//} else {
+		//	teamRed.EnableImgTargetInChilds();
+		//	//teamRed2.DisableImgTargetInChilds();
+		//}
 	}
 
 	public void DisActiveManagerTarget()

@@ -134,10 +134,12 @@ public class BaseGameController : MonoSingleton<BaseGameController>
 		} else {
 			if (this.baseModeType == BaseModeType.MULTI_MODE)
 			{
-				teamRedTargets.EnableImgTargetInChilds ();
-				teamBlueTargets.EnableImgTargetInChilds ();
-			}
-		}
+                teamRedTargets.EnableImgTargetInChilds();
+                teamBlueTargets.EnableImgTargetInChilds();
+            }
+            teamRedTargets.EnableImgTargetInChilds();
+            teamBlueTargets.EnableImgTargetInChilds();
+        }
 
         //baseWordController.ReloadData();
 #if UNITY_EDITOR
