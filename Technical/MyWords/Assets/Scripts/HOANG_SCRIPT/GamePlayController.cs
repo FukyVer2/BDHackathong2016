@@ -101,7 +101,7 @@ public class GamePlayController : MonoSingleton<GamePlayController> {
 	public void GameInit()
 	{
 		Debug.Log("Game Init");
-		DisActiveManagerTarget ();
+		//DisActiveManagerTarget ();
         //StartCoroutine (baseWordController.ReloadData (libraryCtr.GetListCategoryForGame(), this.baseModeLevel));
         //baseWordController.LoadData();
         gameLose = false;

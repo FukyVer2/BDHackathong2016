@@ -16,7 +16,6 @@ namespace Vuforia
     {
         public override void AddOSSpecificExternalDatasetSearchDirs()
         {
-			//this.LoadDatasets ();
     #if UNITY_ANDROID
             if (Application.platform == RuntimePlatform.Android)
             {
