@@ -8,6 +8,6 @@ public class UICategory : MonoBehaviour
     public Text categoryName;
     public Image categorySprite;
     public Button categoryButton;
-    private BaseCategory baseCategory;
+    public BaseCategory baseCategory;
     
 }

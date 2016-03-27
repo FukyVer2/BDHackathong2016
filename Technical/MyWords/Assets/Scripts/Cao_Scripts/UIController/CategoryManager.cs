@@ -59,9 +59,10 @@ public class CategoryManager : MonoSingleton<CategoryManager> {
                 GameObject categoryObj = GameObject.Instantiate(categoryPrefab) as GameObject;
                 UICategory uiCategory = categoryObj.GetComponent<UICategory>();
                 uiCategory.categoryName.text = baseCategory.categoryContent;
+                uiCategory.baseCategory = baseCategory;
                 Debug.Log("Hinh:" + baseCategory.categoryPhoto);
                 uiCategory.categorySprite.sprite = ResourceLoader.GetCategorySprite(baseCategory.categoryPhoto);
-                uiCategory.categoryButton.onClick.AddListener(delegate { OnCategoryClicked(baseCategory);});
+                uiCategory.categoryButton.onClick.AddListener(delegate { OnCategoryClicked(uiCategory.baseCategory);});
                 categoryObj.transform.SetParent(contentPanel);
                 categoryObj.transform.localScale = Vector3.one;
                 categoryObj.transform.localPosition = Vector3.zero;
@@ -75,6 +76,7 @@ public class CategoryManager : MonoSingleton<CategoryManager> {
 
     void OnCategoryClicked(BaseCategory _baseCategory)
     {
+        Debug.Log("Duoc chon: " + _baseCategory.categoryContent);
         DontDestroyOnLoad(gameObject);
         DontDestroyOnLoad(ScenesManager.Instance.gameObject);
         Application.LoadLevel("NewUI");
