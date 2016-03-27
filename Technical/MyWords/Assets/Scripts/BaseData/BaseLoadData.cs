@@ -15,6 +15,11 @@ public class BaseLoadData : MonoSingleton<BaseLoadData> {
     public Dictionary<string, Sprite> myWordPhoto = new Dictionary<string,Sprite>(); //string: Ten Sprite, Sprite: buc hinh tuong ung
     public Dictionary<string, Sprite> myCategoryPhoto = new Dictionary<string, Sprite>(); //string: Ten Sprite, Sprite: buc hinh tuong ung
 
+    void Start()
+    {
+        InitData();
+    }
+
     public void InitData()
     {
         //
@@ -27,16 +32,16 @@ public class BaseLoadData : MonoSingleton<BaseLoadData> {
 #endif
         foreach (var word in dataValue)
         {
-			//Debug.Log("Word = " + word.Count);
+			Debug.Log("Word = " + word.Count);
 			if(word.Count > 5)
 			{
 				baseWord = new BaseWord();
-				baseWord.categoryID = int.Parse(word[1]);
-				baseWord.wordID = int.Parse(word[0]);
-				baseWord.wordContent = word[2];
-				baseWord.wordPhoto = word[3];
-				baseWord.wordSound = word[4];
-				baseWord.countChar = int.Parse(word[5]);
+				baseWord.categoryID = word[1].Trim();
+				baseWord.wordID = word[0].Trim();
+                baseWord.wordContent = word[2].Trim();
+                baseWord.wordPhoto = word[3].Trim();
+                baseWord.wordSound = word[4];
+				baseWord.countChar = int.Parse(word[5].Trim());
 				baseWord.countFinish = 0;//int.Parse(word[6]);
 				baseWord.countLose = 0;//int.Parse(word[7]);;
 				myWordData.Add(baseWord);
@@ -49,17 +54,17 @@ public class BaseLoadData : MonoSingleton<BaseLoadData> {
         foreach (var word in dataValue)
         {
             baseCategory = new BaseCategory();
-			baseCategory.iD = int.Parse(word[0]);
-            baseCategory.categoryID = word[1];
-            baseCategory.categoryContent = word[2];
-            baseCategory.categoryPhoto = word[3];
+			baseCategory.parentID = word[0].Trim(); ;
+            baseCategory.categoryID = word[1].Trim(); ;
+            baseCategory.categoryContent = word[2].Trim(); ;
+            baseCategory.categoryPhoto = word[3].Trim(); ;
             myCategoryData.Add(baseCategory);
         }
         //Load word photo
 
     }
 
-	public void UpdateBaseWordByWordID(int wordID, bool isWin)
+	public void UpdateBaseWordByWordID(string wordID, bool isWin)
 	{
 		BaseWord baseWord = myWordData.Find (x => x.wordID == wordID);
 		if (isWin) {
@@ -68,7 +73,7 @@ public class BaseLoadData : MonoSingleton<BaseLoadData> {
 			baseWord.countLose++;
 		}
 
-		WriteFileWordData ();
+		//WriteFileWordData ();
 	}
 
 	[ContextMenu("Write Data")]

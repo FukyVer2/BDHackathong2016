@@ -31,10 +31,11 @@ public class GamePlayController : MonoSingleton<GamePlayController> {
 	public TutorialController tutorial;
 	public int step;
 	public const float Block_Tut_Timer = 5.0f;//Sau moi block timer se tu trong tang step
-
+    //
+    
 	void Awake()
 	{
-		BaseLoadData.Instance.InitData();
+		//BaseLoadData.Instance.InitData();
 		baseModeLevel = BaseModeLevel.EASY;
 	}
 
@@ -42,6 +43,7 @@ public class GamePlayController : MonoSingleton<GamePlayController> {
 	{
 		gameLose = false;
 		canChangeWord = false;
+        baseWordController.LoadData(CategoryManager.Instance.baseCategory);
 	}
 	
 
@@ -100,15 +102,16 @@ public class GamePlayController : MonoSingleton<GamePlayController> {
 	{
 		Debug.Log("Game Init");
 		DisActiveManagerTarget ();
-		StartCoroutine (baseWordController.ReloadData (libraryCtr.GetListCategoryForGame(), this.baseModeLevel));
-		gameLose = false;
+        //StartCoroutine (baseWordController.ReloadData (libraryCtr.GetListCategoryForGame(), this.baseModeLevel));
+        //baseWordController.LoadData();
+        gameLose = false;
 	}
 
 	[ContextMenu("Show Tut")]
 	public void ShowTutorialWithStep()
 	{
 		if (baseWord != null) {
-			tutorial.ShowText(baseWord.categoryID, step);
+			//tutorial.ShowText(baseWord.categoryID, step);
 			step++;
 			if(step > 3)
 			{

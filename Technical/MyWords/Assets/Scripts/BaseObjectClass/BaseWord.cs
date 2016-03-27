@@ -6,8 +6,8 @@ using System.Text;
 [System.Serializable]
 public class BaseWord
 {
-    public int categoryID; //Thong so chi ID cua parent
-    public int wordID; //Thong so chi ID cua Child
+    public string categoryID; //Thong so chi ID cua parent
+    public string wordID; //Thong so chi ID cua Child
     public string wordContent; //Thong so chi noi dung cua word
     public string wordPhoto; //Thong so chi duong dan anh cua word
 	public string wordSound; // Ten am thanh cua tu

@@ -12,6 +12,16 @@ public class BaseWordController : MonoBehaviour{
     //private int wordIndex;
     public List<BaseWord> baseWords;
 
+    public void LoadData(BaseCategory _baseCategory)
+    {
+        if (BaseLoadData.Instance.myWordData != null)
+        {
+            baseWords = BaseLoadData.Instance.myWordData.FindAll(x => x.categoryID.Equals(_baseCategory.categoryID));
+            completeChangeWord = false;
+            GamePlayController.Instance.PlayGameWithNewWord();
+        }
+    }
+
 	public IEnumerator ReloadData(List<BaseCategory> listCategorySelect, BaseModeLevel modeLevel) //IEnumerator
     {
 		//BaseCategory baseCategory = GamePlayController.Instance.baseCategory;
@@ -36,7 +46,7 @@ public class BaseWordController : MonoBehaviour{
 		}
 		foreach (BaseCategory baseCategory in listCategorySelect) {
 			List<BaseWord> listWordByCategory = BaseLoadData.Instance.myWordData.FindAll (
-				x => x.categoryID == baseCategory.iD && x.countChar >=minCountChar && x.countChar <= maxCountChar);
+				x => x.categoryID == baseCategory.categoryID && x.countChar >=minCountChar && x.countChar <= maxCountChar);
 			//baseWords.
 			foreach(BaseWord baseWord in listWordByCategory)
 			{

@@ -2,43 +2,7 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
-- Assets/Resources/TexturePacker/Fruits.tpsheet
-- Assets/Resources/TexturePacker/Vegetable.tpsheet
-- Assets/Resources/TexturePacker/People.tpsheet
-- Assets/Resources/TexturePacker/Body.tpsheet
-- Assets/Resources/TexturePacker/Foods.tpsheet
-- Assets/Resources/TexturePacker/Vehicle.tpsheet
-- Assets/Resources/TexturePacker/Animal.tpsheet
-- Assets/Resources/TexturePacker/Sport.tpsheet
-- Assets/Resources/TexturePacker/Clothes.tpsheet
-- Assets/Resources/TexturePacker/Home.tpsheet
-- Assets/Resources/TexturePacker/Jobs.tpsheet
-- Assets/Resources/TexturePacker/Color.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
-- Assets/Resources/TexturePacker/Fruits.png
-- Assets/Resources/TexturePacker/Vegetable.png
-- Assets/Resources/TexturePacker/People.png
-- Assets/Resources/TexturePacker/Body.png
-- Assets/Resources/TexturePacker/Foods.png
-- Assets/Resources/TexturePacker/Vehicle.png
-- Assets/Resources/TexturePacker/Animal.png
-- Assets/Resources/TexturePacker/Sport.png
-- Assets/Resources/TexturePacker/Clothes.png
-- Assets/Resources/TexturePacker/Home.png
-- Assets/Resources/TexturePacker/Jobs.png
-- Assets/Resources/TexturePacker/Color.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 

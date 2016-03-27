@@ -12,6 +12,9 @@ public class ResourceLoader{
 
     public static void InitData()
     {
+        pictureLibrary.Clear();
+        categoryLibrary.Clear();
+        audioLibrary.Clear();
         //pictureLibrary = new Dictionary<string, Sprite>();
         //characterLibrary = new Dictionary<string, Sprite>();
 		LoadSpriteFromFile("TexturePacker", ref pictureLibrary);
@@ -91,6 +94,7 @@ public class ResourceLoader{
     {
         if (categoryLibrary != null)
         {
+            Debug.Log("Ton tai thang nay ma: " + spriteName);
             if (categoryLibrary.ContainsKey(spriteName))
             {
                 return categoryLibrary[spriteName];
