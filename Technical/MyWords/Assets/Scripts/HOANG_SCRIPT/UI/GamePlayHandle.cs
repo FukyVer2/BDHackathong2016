@@ -34,7 +34,8 @@ public class GamePlayHandle : MonoBehaviour {
 	void ShowGameStart()
 	{
 		DisableAll ();
-		gameStart.SetActive (true);
+	    BntVersusPLay();
+	    //gameStart.SetActive (true);
 	}
 
 	void ShowGamePlay(bool isEnable)//isEnable to show Button pause

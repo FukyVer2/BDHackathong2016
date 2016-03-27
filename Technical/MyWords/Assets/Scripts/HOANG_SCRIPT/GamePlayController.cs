@@ -193,7 +193,7 @@ public class GamePlayController : MonoSingleton<GamePlayController> {
 		else
 		{
 			//PlayGameWithNewWord();
-            Application.LoadLevel("Cao_Scenes");
+            Application.LoadLevel("WorldMap");
 		}
 	}
 
