@@ -8,6 +8,7 @@ public class ChangeScreen : MonoBehaviour {
 
     public GameObject GAME_PLAY;
 
+
 	// Use this for initialization
 	void Start () {
 	
@@ -18,11 +19,14 @@ public class ChangeScreen : MonoBehaviour {
         float time = 0.2f;
         GoOut(GAME_PLAY, time, 0);
         GoIn(PAUSE, time, time);
+
+        GamePlayController.Instance.DisActiveManagerTarget();
     }
 
     //close the setting menu
     public void CloseSettings()
     {
+        GamePlayController.Instance.ActiveManagerTarget();
         float time = 0.2f;
         GoOut(PAUSE, time, 0);
         GoIn(GAME_PLAY, time, time);

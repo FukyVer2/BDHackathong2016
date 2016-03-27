@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using UnityEngine.UI;
+using Holoville.HOTween;
 
 public class UIWordEffect : MonoBehaviour {
 
@@ -145,6 +146,14 @@ public class UIWordEffect : MonoBehaviour {
 		uiWords [index].WordScore = 2;
 		uiWords [index].index = index;
         uiWords[index].OnWordValueChanged();
+
+        Vector3 startScale = uiWords[index].gameObject.transform.localScale;
+        Vector3 desScale = new Vector3(startScale.x+0.4f,startScale.y+0.4f);
+
+        HOTween.To(uiWords[index].gameObject.transform, 0.7f, new TweenParms()
+            .Prop("localScale", desScale, false)
+            .Loops(2, LoopType.Yoyo)
+            );
         GamePlayController.Instance.CheckWord(character.ToString(), index);
 	}
 
@@ -161,6 +170,15 @@ public class UIWordEffect : MonoBehaviour {
                 uiPrefab.transform.SetParent(transform.parent);
                 uiPrefab.transform.localScale = Vector3.one;
                 uiPrefab.transform.position = new Vector3(0, transform.position.y, 0);
+
+                Vector3 startScale = uiPrefab.transform.localScale;
+                Vector3 desScale = new Vector3(startScale.x + 0.2f, startScale.y + 0.2f);
+
+                HOTween.To(uiPrefab.transform, 0.7f, new TweenParms()
+                    .Prop("localScale", desScale, false)
+                    .Loops(2, LoopType.Yoyo)
+                    );
+
                 UIWordPrefab uiWord = uiPrefab.GetComponent<UIWordPrefab>();
                 //uiWord.Show();
                 uiWrongWords[index].IsUse = true;
